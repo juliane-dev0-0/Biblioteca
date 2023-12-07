@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@100;200&family=Pragati+Narrow&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:wght@100;200&family=Pragati+Narrow&family=Rajdhani:wght@300;700&family=Roboto&display=swap');
+
+body{
+    background-color: #e4e1e1;
+}
+h1 {
+    font-family: 'Ephesis', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color:color-mix(in srgb, #561111 50%, #000000 20%);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #b02d2d;
+
+    background: linear-gradient(338deg, #b02d2d 0%, #773f3f 80%);
+    background: -webkit-linear-gradient(338deg, #b02d2d 0%, #773f3f 80%);
+    background: -moz-linear-gradient(338deg, #b02d2d 0%, #773f3f 80%);
+    color: #f6f6f6;
+    cursor: pointer;
+    transition: 0.4s transform;
+}
+
+button:hover {
+    background: #b02d2d;
+    background: linear-gradient(130deg, #b02d2d 0%, #773f3f 80%);
+    background: -webkit-linear-gradient(130deg, #b02d2d 0%, #773f3f 80%);
+    background: -moz-linear-gradient(130deg, #b02d2d 0%, #773f3f 80%);
+    box-shadow: 10px 10px 5px 0px #b1b1b1bf;
+    -webkit-box-shadow: 10px 10px 5px 0px #b1b1b1bf;
+    -moz-box-shadow: 10px 10px 5px 0px #b1b1b1bf;
+    transform: scale(1.10);
+    
+    
+}
+button:hover ::before{
+    transition: 0.4s;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:#561111c3;
+}
+
+img{
+    display: flex;
+    margin-left: 40%;
+}

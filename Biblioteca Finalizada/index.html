@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entidade Bibliografica</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Biblioteca</h1>
+
+    <div class="botoes">
+        <button onclick="AdicionarItem()">Adicionar Livro</button>
+        <!-- no add livro precisa conter as informações de titulo, autor, ano publicação, codigo e genero -->
+        <button onclick="biblioteca.listarAcervo()">Listar Livros</button>
+        <!-- listar livros -> listaracervo() -->
+        <button onclick="addUsuario()">Adicionar Usuário</button>
+        <!-- nome, RA, dataNascimento -->
+        <button onclick="biblioteca.listarUsuarios()">Listar Usuários</button>
+        <!-- nome, RA, dataNascimento -->
+        <button onclick="emprestarLivro()">Emprestar um Livro</button>
+        <!-- emprestarItem(cod, usuário) -->
+        <button onclick="devolverLivro()">Devolver um Livro</button>
+        <!-- devolverItem(cod) -->
+
+
+    </div>
+
+    <p><strong>TODAS AS INFORMAÇÃOES DOS BOTÕES ESTARÃO NO CONSOLE ! </strong></p>
+
+    <img src="/pasted image 0.png" alt="">
+
+    <script src="biblioteca.js"></script>
+
+
+</body>
+
+</html>
